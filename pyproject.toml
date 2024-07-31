@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "dbt-bq-dry-runner"
+version = "0.1.0"
+description = ""
+authors = ["ebenkara15 <erwan.benkara@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+google-cloud-bigquery = "^3.25.0"
+loguru = "^0.7.2"
+PyYAML = "^6.0.1"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.12.1"
+isort = "^5.13.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
